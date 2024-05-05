@@ -1,1 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+html, body {
+    max-height: 100%;
+}
 
+.container{
+    display: flex;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.backgroundImg,
+.formBackground{
+    height: 100vh;
+    
+}
+.BgPhoto{
+    width: 100%;
+}
