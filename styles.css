@@ -3,6 +3,10 @@
     padding: 0px;
     border: 0px;
 }
+@font-face{
+    font-family: titleExternalFont;
+    src: url(fonts/Norse-Bold.otf);
+}
 html, body {
     max-height: 100%;
 }
@@ -12,6 +16,29 @@ html, body {
     max-height: 100vh;
     overflow: hidden;
 }
+.backgroundImg{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%; 
+    transform: translate(-50%,50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.712)
+}
+.title img{
+    height: 80%;
+}
+h1{
+    color: white;
+    font-family: titleExternalFont;
+    font-size: 100px;
+}
 .backgroundImg,
 .formBackground{
     height: 100vh;
@@ -20,3 +47,4 @@ html, body {
 .BgPhoto{
     width: 100%;
 }
+
