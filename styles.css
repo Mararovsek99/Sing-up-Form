@@ -24,10 +24,12 @@ html, body {
 .backgroundImg{
     position: relative;
     width: 40%;
-    background-color: #5b7c99;
+    background-color: #ff0303;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    box-shadow: inset -16px 0px 10px -5px rgba(0, 0, 0, 0.5);
+
 }
 .title{
     position: absolute;
@@ -48,10 +50,15 @@ h1{
 }
 .BgPhoto{
 
-    max-height: 60%;
+    max-height: 52%;
 }
 .formBackground{
+    width: 60%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .text{
     color: aliceblue;
@@ -62,4 +69,55 @@ h1{
     bottom: 8%;
     font-size: 1.5em;
     font-family: Oswald-Light;
+}
+form{
+    color: #999;
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+form h2{
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+p{
+    margin-bottom: 1rem;
+}
+.row{
+    display: flex;
+    gap: 20px;
+}
+.formControl{
+    border-radius: 3px;
+    height: 51px;
+    background: #f2f2f2;
+    box-shadow: none !important;
+    border: none;
+    width: 100%;
+    color: #495057;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.375rem 0.75rem ;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[name="Last Name"]{
+    float: right;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+    height: 14px;
+    width: 14px;
+}
+label a{
+    text-decoration: none;
+}
+label{
+    font-size: 1.1rem;
 }
