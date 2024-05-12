@@ -3,6 +3,9 @@
     padding: 0px;
     border: 0px;
 }
+:root{
+    --main-color: #ff0303;
+}
 @font-face{
     font-family: Oswald-Light;
     src: url(fonts/Oswald-Light.ttf);
@@ -24,7 +27,7 @@ html, body {
 .backgroundImg{
     position: relative;
     width: 40%;
-    background-color: #ff0303;
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,18 +56,18 @@ h1{
     max-height: 52%;
 }
 .formBackground{
+    position: relative;
     width: 60%;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 .text{
     color: aliceblue;
     align-self: center;
 }
-.SingUpText{
+.SignUpText{
     position: absolute;
     bottom: 8%;
     font-size: 1.5em;
@@ -78,6 +81,8 @@ form{
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     margin-bottom: 15px;
     border-radius: 3px;
+    position: relative;
+    left: 10%;
 }
 form h2{
     color: #333;
@@ -120,4 +125,120 @@ label a{
 }
 label{
     font-size: 1.1rem;
+}
+.btn{
+    background-color: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    min-width: 140px;
+    height: 41px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.formControl.invalid {
+    border: 2px solid red;
+}
+.formControl.valid{
+    border: 2px solid green;
+}
+
+
+
+
+
+@media  screen and (max-width: 900px) { /*css for tablets*/
+
+    .backgroundImg{
+        width: 30%;
+    }
+    form{
+        left: 5%;
+    }
+    .SignUpText{
+        width: 180px;
+        text-align: center;
+    }
+}
+@media  screen and (max-width: 700px) { /*css for tablets*/
+
+    .backgroundImg{
+        width: 20%;
+    }
+    .formBackground{
+        width: 80%;
+    }
+    .SignUpText{
+        width: 180px;
+        text-align: center;
+        transform: rotate(-90deg);
+    }
+    h1{
+        transform: rotate(-90deg);
+        position: absolute;
+        left:-50px;
+        top: 50px;
+    }
+    .backgroundImg img{
+        display: none;
+    }
+}
+
+
+
+
+
+@media  screen and (max-width: 618px) { /*css for phones*/
+    .backgroundImg{
+        position: static;
+        width: 0px;
+        display: block;
+    }
+    .formBackground{
+        width: 100%;
+        align-items: center;
+    }
+    .SignUpText{
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+        transition: ;
+        width: 80%;
+        text-align: center;
+        transform: translateX(-50%);
+    }
+    h1{
+        transform: rotate(0deg);
+        position: absolute;
+        left:10px;
+        top: 5px
+    }
+    form{
+        position:static;
+        width: 280px;
+    }
+    .formControl{
+        height: 41px;
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+    }
+    .title {
+        font-size: 13px;
+        left: 10px;
+        top: 15px;
+    }
+    label{
+        font-size: 0.8rem;
+    }
+    input[type="checkbox"] {
+        height: 12px;
+        width: 12px;
+    }
+    .btn{
+        font-size: 12px;
+        min-width: 100px;
+        height: 30px;
+    }
 }
