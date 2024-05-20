@@ -1,1 +1,14 @@
-<svg id="e5pEtVMyKZl1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" style="background-color:#fff"><defs><linearGradient id="e5pEtVMyKZl4-fill" x1="0.205284" y1="-0.273163" x2="0.550399" y2="1.124969" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e5pEtVMyKZl4-fill-0" offset="21%" stop-color="#f00"/><stop id="e5pEtVMyKZl4-fill-1" offset="100%" stop-color="#ff6b6b"/></linearGradient></defs><rect width="730.581097" height="640" rx="0" ry="0" transform="matrix(.876015 0 0 1 0 0)" fill="#252423" stroke-width="0"/><g transform="matrix(.87794 0.754546-1.533883 1.784725 83.020709-742.605212)"><path d="M-289.230631,17.691864c0-41.934585,146.72516-79.925563,282.736679-79.925563c71.165785,0,79.280268,33.8122,112.894858,48.954408c30.629365,13.797468,91.32542,22.931798,91.32542,42.924803c0,41.934586-104.175262,47.990525-240.186781,47.990525s-246.770176-18.009587-246.770176-59.944173Z" transform="matrix(1 0 0-1 805.112624 287.048265)" fill="url(#e5pEtVMyKZl4-fill)" stroke-width="0"/></g></svg>
+<svg width="640" height="640" xmlns="http://www.w3.org/2000/svg" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+ <defs>
+  <linearGradient gradientTransform="translate(0 0)" gradientUnits="objectBoundingBox" spreadMethod="pad" y2="-0.12497" x2="0.5504" y1="1.27316" x1="0.20528" id="svg_1">
+   <stop stop-color="#f00" offset="21%" id="e5pEtVMyKZl4-fill-0"/>
+   <stop stop-color="#ff6b6b" offset="100%" id="e5pEtVMyKZl4-fill-1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_3" transform="matrix(0.87794 0.754546 -1.53388 1.78472 83.0207 -742.605)">
+   <path id="svg_4" stroke-width="0" fill="url(#svg_1)" d="m505.19472,267.15105c0,41.93458 146.72516,79.92556 282.73668,79.92556c71.16578,0 79.28027,-33.8122 112.89486,-48.95441c30.62936,-13.79747 91.32542,-22.9318 91.32542,-42.9248c0,-41.93459 -104.17527,-47.99053 -240.18679,-47.99053s-246.77017,18.00959 -246.77017,59.94418z"/>
+  </g>
+ </g>
+</svg>

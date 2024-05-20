@@ -150,6 +150,13 @@ label{
     width: 50%;
     height: auto;
 }
+span{
+    color: red;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+    display: none;
+}
 
 
 
@@ -215,8 +222,8 @@ label{
     .SignUpText{
         position: absolute;
         left: 50%;
-        bottom: 10px;
-        width: 80%;
+        bottom: 50px;
+        width: 90%;
         text-align: center;
         transform: translateX(-50%);
     }
@@ -230,6 +237,7 @@ label{
         position:relative;
         width: 280px;
         z-index: 1000;
+        left: 0px;
     }
     .formControl{
         height: 41px;
@@ -241,6 +249,7 @@ label{
         font-size: 13px;
         left: 10px;
         top: 15px;
+        width: 80%;
     }
     label{
         font-size: 0.8rem;
