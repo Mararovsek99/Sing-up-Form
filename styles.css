@@ -156,6 +156,7 @@ span{
     bottom: 15px;
     left: 5px;
     display: none;
+    font-size: 1rem;
 }
 
 
@@ -265,5 +266,8 @@ span{
     }
     .formBackground .cornerDecoration{
         z-index: 1;
+    }
+    span{
+        font-size: 0.7rem;
     }
 }
